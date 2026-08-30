@@ -1,0 +1,2 @@
+read agents.md and use Laravel boost mcp and https://github.com/colbymchenry/codegraph and https://github.com/shadcn/improve in hermes
+when i say pr: you will open pr to https://github.com/asgarimehdi/h-dashboard/tree/beta
