@@ -32,3 +32,6 @@ cookies.txt
 coverage.xml
 coverage/
 /deploy
+/.github/workflows/ssh.yml
+/9router
+/hermes
