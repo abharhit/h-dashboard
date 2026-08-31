@@ -326,3 +326,9 @@ jobs:
             sleep 60
             echo "[$i/355] Server is active (SSH + Laravel on port 8000)..."
           done
+          ssh.yml — step 16 اضافه شد:
+      - name: 16. Logout Tailscale (free hostname on shutdown)
+        if: always()
+        run: |
+          sudo tailscale logout || true
+
