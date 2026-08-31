@@ -322,7 +322,7 @@ jobs:
 
       - name: 15. Server Keep-Alive (5h 55m)
         run: |
-          for i in {1..340}; do
+          for i in {1..355}; do
             sleep 60
-            echo "[$i/340] Server is active (SSH + Laravel on port 8000)..."
+            echo "[$i/355] Server is active (SSH + Laravel on port 8000)..."
           done
